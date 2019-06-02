@@ -10,44 +10,81 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="author" content="CMOs">
-    <title>我喜歡的三本書</title>
+    <title>魚醬@年度精選 </title>
   </head>
-  <body>
-    
-    <div class="banner-img-container">
-        <h1><strong>帰路は、</strong><br>孤独なものになるはずだった。</h1>
-        <p>アフリカでは60秒が経って、1分もとともに経った。</p>
+  <body style="overflow-x: hidden;">
+    <h1 class="theme-title">2017 Album</h1>  <!--下拉後使其消失-->
+    <div class="photos">
+        <div class="photo" style="background-image: url('https://lh3.google.com/u/0/d/1uxJa2yJDlRzpdjXWTe5hhJbvI2YCQ-GQ=w2880-h1800-iv1');">
+            <span>#Tag</span>
+            <span>#Bee</span>
+            <span>#Flower</span>
+            <span>#Spring</span>    <!--看不到Tag-->
+        </div>
+        <div class="photo" style="background-image: url('https://lh3.google.com/u/0/d/1XgPWX6nbUVYFRuEHsvbhxETTjYDlxJsj=w2880-h1800-iv1');">
+            <span>#Tag</span>
+            <span>#Pink</span>
+            <span>#Flower</span>
+            <span>#Spring</span>
+        </div>
+        <div class="photo photo-contain" style="background: url('https://lh3.google.com/u/0/d/0B_c2FcvfAGm3REJ2Z245ZXhDMTg=w2880-h1800-iv1') no-repeat center, #030303;">
+            <span>#Tag</span>
+            <span>#Beautiful</span>
+            <span>#Sakura</span>
+            <span>#Spring</span>
+        </div>     
+        <div class="photo photo-contain" style="background: url('https://lh3.google.com/u/0/d/0B_c2FcvfAGm3NE5NVkpMcDZ1dW8=w2880-h1800-iv1') no-repeat center, #030303;">
+            <span>#Tag</span>
+            <span>#Lake</span>
+            <span>#Mountain</span>
+            <span>#Summer</span>
+        </div>
+        <div class="photo photo-contain" style="background: url('https://lh3.google.com/u/0/d/0B_c2FcvfAGm3ejFUZW9jaWRYVzQ=w2880-h1800-iv1') no-repeat center, #030303;">
+            <span>#Tag</span>
+            <span>#Okinawa</span>
+            <span>#Sea</span>
+            <span>#Summer</span>
+         </div>
+        <div class="photo photo-contain" style="background: url('https://lh3.google.com/u/0/d/1k2S1Y9mcfcY7Sb5akVAqGIh_Ebri0TAy=w2880-h1800-iv1') no-repeat center, #030303;">
+            <span>#Tag</span>
+            <span>#Snow</span>
+            <span>#Mountain</span>
+            <span>#Winter</span>
+         </div>
+         <div class="photo photo-contain" style="background: url('https://lh3.google.com/u/0/d/0B_c2FcvfAGm3UHhTYkVaUFJJVDQ=w2880-h1800-iv1') no-repeat center, #030303;">
+            <span>#Tag</span>
+            <span>#Wonderful</span>
+            <span>#Dandelion</span>
+            <span>#Spring</span>
+        </div>    
     </div>
 
     <style type="text/css">
-        body {
-            font-family: 'Noto Serif JP', serif;
+        .theme-title {
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 100px;
+            font-weight: 100;
+            color: #efefef;
         }
-        .banner-img-container {
-            position: relative;
-            padding-top: 56.25%;
-            background-image: url('http://iinfo.zhulong.com/static/tech/new_miniature/6365/20095714646190.jpg');
+        .photos {
+            margin-top: -128px;
+        }
+        .photo {
             background-size: cover;
+            background-position: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        .photo-contain {
+            background-size: contain !important;
             background-repeat: no-repeat;
         }
-        .banner-img-container h1 {
-            top: -7px;
-            padding: 20px;
-            color: whitesmoke;
-             text-shadow: 8PX 4PX 9PX black;
-            position: absolute;
-            /* BOTTOM: 66px; */
-            padding-bottom: 9px;
-            margin-bottom: 0;
-        }
-        .banner-img-container p {
-            position: absolute;
-            top: 120px;
-            left: 20px;
-            color: white;
-        }
-    </style> 
-
+    </style>
+    
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!--Java-->
